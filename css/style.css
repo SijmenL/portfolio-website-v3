@@ -278,7 +278,7 @@ ul.intrests {
 .vl {
     border-left: 6px solid rgb(255, 255, 255);
     height: 520px;
-  }
+}
 
 /* DESKTOP */
 @media (min-width: 700px) {
@@ -288,16 +288,18 @@ ul.intrests {
         justify-content: space-between;
         gap: 10px;
         flex-wrap: wrap;
-        margin-left: 3vw;    
+        margin-left: 3vw;
     }
+
     #slidercontent {
         flex-grow: 1;
         flex-wrap: wrap;
         overflow: hidden;
         object-fit: cover;
         width: 70vw;
-    
+
     }
+
     .vl {
         display: none;
     }
@@ -318,17 +320,23 @@ ul.intrests {
 table,
 td {
     border: 1px solid;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 7px;
-    padding: 5px;
     background-color: rgba(0, 0, 0, 0.299);
+    border-radius: 7px;
+
 }
 
 @media (min-width: 400px) {
-    table, td {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+
+    table,
+    td {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+        border-radius: 7px;
+        border: 1px solid;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgba(0, 0, 0, 0.299);
     }
 }
 
